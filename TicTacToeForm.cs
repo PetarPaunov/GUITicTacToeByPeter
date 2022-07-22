@@ -139,7 +139,7 @@ namespace TicTacToe
                 if (col == 2)
                 {
                     ShowWinner(winnerButtons);
-                    return;
+                    return; 
                 }
             }
         }
