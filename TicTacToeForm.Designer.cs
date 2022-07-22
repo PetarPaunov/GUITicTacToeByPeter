@@ -31,7 +31,6 @@
             this.panelButtons = new System.Windows.Forms.Panel();
             this.buttonPlayer = new System.Windows.Forms.Button();
             this.labelPlayer = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // panelButtons
@@ -64,21 +63,11 @@
             this.labelPlayer.TabIndex = 2;
             this.labelPlayer.Text = "Player";
             // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(707, 277);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(50, 20);
-            this.label1.TabIndex = 3;
-            this.label1.Text = "label1";
-            // 
             // formTicTacToe
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(832, 617);
-            this.Controls.Add(this.label1);
             this.Controls.Add(this.labelPlayer);
             this.Controls.Add(this.buttonPlayer);
             this.Controls.Add(this.panelButtons);
@@ -94,6 +83,5 @@
         private Panel panelButtons;
         private Button buttonPlayer;
         private Label labelPlayer;
-        private Label label1;
     }
 }
